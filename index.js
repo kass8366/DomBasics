@@ -75,7 +75,7 @@
         n_exactmatch = n_match[2]; // True if exact color match
 
     //вывод текста в див
-        elem2.textContent = `Цвет RGB - ${elem2.style.background}, \n Цвет в формате HEX: #${hexRedTone}${hexGreenTone}${hexBlueTone},\n  Оттенок - ${n_name}.`
+        elem2.innerHTML = `Цвет RGB - ${elem2.style.background} <br> Цвет в формате HEX: #${hexRedTone}${hexGreenTone}${hexBlueTone}<br>  Оттенок - ${n_name}.`
 
     //Добавление на страницу
     
